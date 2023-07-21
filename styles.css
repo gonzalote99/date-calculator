@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  color: grey;
+}
+
+
+.container {
+  max-width: 47rem;
+  margin-inline: auto;
+  padding: 1rem;
+}
+
+header h1 {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+
+.form-label {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.form-control {
+  width: 100%;
+  border: 1px solid gray;
+  outline: 0;
+  font-size: 1rem;
+  font-family: inherit;
+  padding: 0.4rem 0.5rem;
+  border-radius: 0.25rem;
+  margin-bottom: .1rem;
+  line-height: 1.5;
+  font-weight: 400;
+  transition: 200ms ease border-color;
+}
+
+
+.form-control:focus {
+  border-color: blue;
+}
+
+.alert {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+
+.alert-danger {
+  color: red;
+  background-color: lightcoral;
+  border-color: salmon;
+}
+
+.date-result {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.date-result h3 {
+  font-size: 1.25rem;
+  margin-top: 0;
+  margin-bottom: 0.6rem;
+}
+
+.date-result .unit-result {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
